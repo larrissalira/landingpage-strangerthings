@@ -9,6 +9,9 @@
   </head>
 
   <body class="light-theme" aria-label="O site está utilizando o tema light" role="body">
+
+<!-- header -->
+
     <header aria-label="Cabeçalho da página.">
       <audio id="music" autoplay>
         <source src="assets/musics/normal-world.mpeg" aria-details="Audio do site" />
@@ -28,6 +31,8 @@
       <div id="top-characters" class="world-characters"></div>
     </header>
     
+<!-- main -->
+
     <main>
         <div id="bottom-characters" class="world-characters"></div>
   
@@ -123,12 +128,16 @@
           </div>
         </section>
       </main>
-  
+      
+<!-- footer   -->
+
       <footer>
           <p> Projeto construído para fins didáticos, com o objetivo de colocar em
             prática os conhecimentos de HTML, CSS e JavaScript aprendidos no bootcamp da Dio </p> 
       </footer>
-  
+
+<!-- script   -->
+
       <script>
         window.addEventListener('click', function() {
           const audio = document.getElementById('music');
